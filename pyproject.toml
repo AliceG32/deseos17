@@ -1,0 +1,16 @@
+[project]
+name = "deseos17-fork"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "aiogram==3.*",
+    "aiogram-dialog[tools]>=2.0.0",
+    "flake8>=7.3.0",
+    "python-jose[cryptography]==3.3.*",
+    "ruff>=0.13.0",
+    "typing-extensions~=4.7",
+    "uvicorn==0.22.*",
+    "wemake-python-styleguide>=1.4.0",
+]
